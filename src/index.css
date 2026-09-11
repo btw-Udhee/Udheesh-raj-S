@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #0B0E14;
+    color: #E2E8F0;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  /* Custom dark scrollbar matching Professional Polish theme */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0B0E14;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1E293B;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #334155;
+  }
+}
+
+/* Light Daylight SOC Theme Overrides */
+[data-theme="light"] {
+  color-scheme: light;
+}
+
+[data-theme="light"] .bg-\[\#0B0E14\] {
+  background-color: #F8FAFC !important;
+  color: #0F172A !important;
+}
+
+[data-theme="light"] .bg-\[\#0F172A\] {
+  background-color: #FFFFFF !important;
+  color: #0F172A !important;
+}
+
+[data-theme="light"] .bg-\[\#1E293B\] {
+  background-color: #F1F5F9 !important;
+  color: #1E293B !important;
+}
+
+[data-theme="light"] .bg-black {
+  background-color: #F8FAFC !important;
+}
+
+[data-theme="light"] .border-\[\#1E293B\],
+[data-theme="light"] .border-\[\#334155\] {
+  border-color: #CBD5E1 !important;
+}
+
+[data-theme="light"] .text-slate-400 {
+  color: #475569 !important;
+}
+
+[data-theme="light"] .text-slate-300 {
+  color: #334155 !important;
+}
+
+[data-theme="light"] .text-white {
+  color: #0F172A !important;
+}

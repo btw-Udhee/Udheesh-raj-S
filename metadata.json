@@ -1,0 +1,6 @@
+{
+  "name": "Cybersecurity Log Analyzer",
+  "description": "Automated log file parsing, suspicious activity detection, security alerts, and threat reporting dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
